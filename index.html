@@ -11,7 +11,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <title>Portfolio</title>
+        <title>Albert Buendia</title>
         <link rel="stylesheet" href="estilo.css" />
     </head>
     <body>
@@ -58,13 +58,17 @@
                 <div class="redes">
                     <!--<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>-->
-                    <a href="https://www.youtube.com/@albertbuendia2888"
+                    <a
+                        target="_blank"
+                        href="https://www.youtube.com/@albertbuendia2888"
                         ><i class="fa-brands fa-youtube"></i
                     ></a>
-                    <a href="https://www.linkedin.com/in/albert-buendia-monjil/"
+                    <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/albert-buendia-monjil/"
                         ><i class="fa-brands fa-linkedin-in"></i
                     ></a>
-                    <a href="https://linktr.ee/albertbumo"
+                    <a target="_blank" href="https://linktr.ee/albertbumo"
                         ><i class="fa-solid fa-rss"></i
                     ></a>
                 </div>
@@ -153,13 +157,15 @@
                         </div>
                     </div>
                 </div>
-                <button>
+                <div class="containerBtnCV">
                     <a
-                        href="https://drive.google.com/file/d/1scX6LcfEG5R-0v0s-DsiLlSxSPyW0Dpy/view?usp=share_link"
+                        class="btnCV"
+                        href="CV-AlbertBuendia.pdf"
+                        target="_blank"
+                        id="descargar"
+                        >VER CV <i class="fa-solid fa-download"></i
                     ></a>
-                    VER CV <i class="fa-solid fa-download"></i>
-                    <span class="overlay"></span>
-                </button>
+                </div>
             </div>
         </section>
 
@@ -168,75 +174,70 @@
             <div class="contenido-seccion">
                 <h2>PORTFOLIO</h2>
                 <div class="galeria">
-                    <!-- <div class="proyecto">
-                        <img src="img/Miniatura VideoclipAndy(1).png" alt="" />
-                        <div class="overlay">
-                            <h3>VIDEOCLIP</h3>
-                        </div>
-                    </div> -->
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/QeTZsi6I5Po"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
                         >
                         </iframe>
                     </div>
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/OB0bUGD9-Ls"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         >
                         </iframe>
                     </div>
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/pkPj5qvPf7M"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         >
                         </iframe>
                     </div>
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/pkPj5qvPf7M"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         >
                         </iframe>
                     </div>
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/pkPj5qvPf7M"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         >
                         </iframe>
                     </div>
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/pkPj5qvPf7M"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         >
                         </iframe>
                     </div>
                     <div class="proyecto">
                         <iframe
                             class="videoIframe"
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
+                            src="https://www.youtube.com/embed/pkPj5qvPf7M"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         >
                         </iframe>
                     </div>
-                    <!-- <div class="proyecto">
-                        <iframe
-                            src="https://www.youtube.com/embed/Dkscb3Przms"
-                        ></iframe>
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/Ordago.png" alt="" />
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/miniatura_actualizada.png" alt="" />
-                    </div>
-                    <div class="proyecto">
-                        <img src="img/miniatura kebab.png" alt="" />
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -263,4 +264,17 @@
 
         <script src="script.js"></script>
     </body>
+
+    <script>
+        // function downloadCV(e) {
+        //     console.log(e);
+        // }
+        // const cv = document.getElementById("btnCV");
+        // cv.addEventListener("click", (e) => console.log(e));
+        var descargarEnlace = document.getElementById("descargar");
+        descargarEnlace.addEventListener("click", function () {
+            // descargarEnlace.href = "PutoCV.pdf";
+            window.open("CV-AlbertBuendia.pdf");
+        });
+    </script>
 </html>
