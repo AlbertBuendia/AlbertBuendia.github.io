@@ -1,2 +1,0 @@
-# AlbertBuendia.github.io
-Portfolio
